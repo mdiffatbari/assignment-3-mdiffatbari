@@ -2,34 +2,67 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PET-SHOP</title>
+  <link rel="shortcut icon" href="assets/logo-header.png" type="image/x-icon">
 
-    <!-- GOOGLE FONT -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Sora:wght@100..800&display=swap"
-        rel="stylesheet">
+  <!-- GOOGLE FONT -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Sora:wght@100..800&display=swap"
+    rel="stylesheet">
 
-    <!-- daisy ui -->
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
-    <style type="text/tailwindcss">
-        @theme {
+
+  <!-- daisy ui -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+
+  <style type="text/tailwindcss">
+    @theme {
           --font-head: ADLaM Display, serif;
           --font-des: Sora, serif;
+          --color-hb: rgba(255, 249, 244, 1);
+          --color-primary01: #FFDC26;
         }
       </style>
-    <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body class="font-des">
-    <h1 class="text-9xl font-head">hello</h1>
-    <h1 class="font-des text-7xl">hello</h1>
-    <h14>hello</h14>
+  <header>
+    <!-- navbar section -->
+    <nav class="bg-hb">
+      <div class="nav-inner w-4/5 mx-auto pt-3 pb-3 flex items-center justify-between">
+        <div class="nav-logo flex items-center">
+          <img class="pr-2" src="assets/logo-header.png" alt="">
+          <a class="hidden md:block text-2xl" href="">Browse<span class="text-primary01">4</span>Pets</a>
+        </div>
+        <div class="nav-menu hidden lg:block">
+          <a class="mr-3 ml-3 hover:text-yellow-400" href="#">Find a pet</a>
+          <a class="mr-3 ml-3 hover:text-yellow-400" href="#">Breeds</a>
+          <a class="mr-3 ml-3 hover:text-yellow-400" href="#">Contact us</a>
+        </div>
+        <div class="nav-buttons">
+          <div class="buttons-full-width hidden lg:block">
+            <i class="fa-regular fa-bell"></i>
+            <i class="fa-solid fa-magnifying-glass ml-2"></i>
+            <button class="text-black ml-2 border border-[#FFDC26] w-24 h-9 rounded-lg hover:bg-black hover:text-white hover:border-none">Login</button>
+            <button class="bg-[#FFDC26] w-28 h-9 rounded-lg ml-1 hover:bg-black hover:text-white">Register</button>
+          </div>
+          <i class="fa-solid fa-bars text-3xl lg:hidden"></i>
+        </div>
+      </div>
+
+    </nav>
+
+  </header>
+  <main></main>
+  <footer></footer>
 </body>
 
 </html>
