@@ -30,6 +30,7 @@
           --color-primary01: #FFDC26;
           --color-des: rgba(17, 17, 17, 0.7);
           --color-border01: rgba(17, 17, 17, 0.1);
+          --color-footer01: rgba(255, 220, 38, 0.5);
         }
       </style>
   <link rel="stylesheet" href="style.css">
@@ -70,7 +71,8 @@
           <h1 class="font-head text-5xl mb-5">Pamper Your Pet, <br>Because They Deserve <br>the Bes</h1>
           <p class="mb-5 w-[28rem] text-base md:w-[32rem]">Discover a world of treats, toys, and essentials handpicked
             for your furry friends. Shop now and make tails wag with joy!</p>
-          <button class="bg-[#FFDC26] w-28 h-9 rounded-lg ml-1 hover:bg-black hover:text-white">Find a pet</button>
+          <button class="bg-[#FFDC26] w-28 h-9 rounded-lg ml-1 hover:bg-black hover:text-white">Find a pet</button> <br>
+          <i class="fa-solid fa-arrow-down animate-ping bg-[#FFDC26] p-3 rounded-full mt-6"></i>
         </div>
       </div>
     </section>
@@ -318,7 +320,7 @@
 
     <!-- Everyday low Price section -->
 
-    <section class="everyday-low-Price my-14">
+    <section class="everyday-low-Price mt-14">
       <div class="everyday-low-header w-[95%] md:w-4/5 mx-auto">
         <h1 class="text-2xl font-head mb-8">Everyday low Price</h1>
       </div>
@@ -342,12 +344,51 @@
           <h1 class="text-5xl font-head text-[#FFDC26] mt-3">$7.99</h1>
         </div>
       </div>
+    </section>
+  </main>
+  <!-- footer  section -->
+  <footer>
 
+    <!-- Get Paw some News! Section -->
+    <section class="get-Pawsome-news-main relative top-[200px]">
+      <div class="get-Pawsome-news-inner w-[95%] md:w-4/5 mx-auto bg-[#FFF9F4] rounded-lg text-center py-8 md:px-20 md:flex md:text-left md:justify-between md:items-center">
+        <div class="Pawsome-news-left-image inline-block">
+          <img src="assets/cute-pet-mid.png" alt="">
+        </div>
+        <div class="Pawsome-news-right-content">
+          <h1 class="font-head text-2xl mb-3">Get Pawsome News!</h1>
+          <p class="w-3/6 mx-auto md:w-[100%] mb-3">Exclusive training tips, ticks, product deals and more.</p>
+          <input type="email" placeholder="Enter email...." class="input w-full max-w-xs" /><br>
+          <button class="bg-[#FFDC26] w-28 h-9 rounded-lg ml-1 hover:bg-black hover:text-white mt-3">Subscribe</button>
+        </div>
+      </div>
     </section>
 
+    <section class="footer-main bg-footer01">
+      <div class="footer-inner w-[95%] md:w-4/5 mx-auto pt-80 pb-14 md:pb-32 md:flex md:justify-between">
+        <div class="footer-left">
+          <div class="footer-logo flex items-center mb-6">
+            <img src="assets/logo-footer.png" alt="" class="w-7 mr-2">
+            <p>Browse<span class="text-primary01">4</span>Pets</p>
+          </div>
+          <p>Discover a world of treats, toys, and<br>essentials handpicked for your furry friends</p>
+        </div>
+        <div class="footer-middle mt-9 md:mt-0">
+          <p class="mb-5">Find a pet</p>
+          <p class="mb-5">Breeds</p>
+          <p>Contact us</p>
+        </div>
+        <div class="footer-right mt-9 md:mt-0 md:content-end">
+          <p class="mb-5">Follow Us</p>
+          <i class="fa-brands fa-facebook mr-4 text-2xl"></i>
+          <i class="fa-brands fa-instagram mr-4 text-2xl"></i>
+          <i class="fa-brands fa-linkedin mr-4 text-2xl"></i>
+          <i class="fa-brands fa-youtube text-2xl"></i>
+        </div>
+      </div>
+    </section>
+  </footer>
 
-  </main>
-  <footer></footer>
 </body>
 
 </html>
