@@ -33,6 +33,16 @@
           --color-footer01: rgba(255, 220, 38, 0.5);
         }
       </style>
+
+  <style>
+    .everyday-low-Price-left {
+      background-image: url("assets/cute-dog-mid.png"), linear-gradient(to left top, #ACD2FD, #F8CCFB);
+    }
+
+    .everyday-low-Price-right {
+      background-image: url("assets/cute-pet-mid.png"), linear-gradient(to left top, #F9DF8A, #FFF9F4);
+    }
+  </style>
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -71,8 +81,8 @@
           <h1 class="font-head text-5xl mb-5">Pamper Your Pet, <br>Because They Deserve <br>the Bes</h1>
           <p class="mb-5 w-[28rem] text-base md:w-[32rem]">Discover a world of treats, toys, and essentials handpicked
             for your furry friends. Shop now and make tails wag with joy!</p>
-          <button class="bg-[#FFDC26] w-28 h-9 rounded-lg ml-1 hover:bg-black hover:text-white">Find a pet</button> <br>
-          <i class="fa-solid fa-arrow-down animate-ping bg-[#FFDC26] p-3 rounded-full mt-6"></i>
+          <button class="bg-[#FFDC26] w-28 h-9 rounded-lg ml-1 hover:bg-black hover:text-white animate-bounce">Find a
+            pet</button> <br>
         </div>
       </div>
     </section>
@@ -319,34 +329,37 @@
     </section>
 
     <!-- question & ans -->
-     <section class="qna-section-main py-24 md:py-36">
+    <section class="qna-section-main py-24 md:py-36">
       <div class="qna-heading w-[95%] md:w-4/5 mx-auto mb-10">
-        <h1 class="font-head text-4xl">Pet Accessory FAQs</h1>
+        <h1 class="font-head text-4xl">Your Questions, Answered</h1>
       </div>
       <div class="qna-section-inner w-[95%] md:w-4/5 mx-auto">
         <div class="collapse collapse-arrow bg-[#F9DF8A] mb-5">
           <input type="radio" name="my-accordion-2" checked="checked" />
           <div class="collapse-title text-xl font-medium">1. What types of pet accessories do you sell?</div>
           <div class="collapse-content">
-            <p>We offer a wide range of pet accessories, including collars, leashes, beds, toys, feeding bowls, grooming tools, and more for dogs, cats, birds, and other pets.</p>
+            <p>We offer a wide range of pet accessories, including collars, leashes, beds, toys, feeding bowls, grooming
+              tools, and more for dogs, cats, birds, and other pets.</p>
           </div>
         </div>
         <div class="collapse collapse-arrow bg-[#F9DF8A] mb-5">
           <input type="radio" name="my-accordion-2" />
           <div class="collapse-title text-xl font-medium">2. Do you offer home delivery?</div>
           <div class="collapse-content">
-            <p>heYes! We provide fast and reliable home delivery so you can shop for your pet’s needs from the comfort of your home.</p>
+            <p>heYes! We provide fast and reliable home delivery so you can shop for your pet’s needs from the comfort
+              of your home.</p>
           </div>
         </div>
         <div class="collapse collapse-arrow bg-[#F9DF8A]">
           <input type="radio" name="my-accordion-2" />
           <div class="collapse-title text-xl font-medium">How do I choose the right size for my pet's accessories?</div>
           <div class="collapse-content">
-            <p>Each product page includes a size guide to help you pick the perfect fit for your pet. If you need further assistance, feel free to contact our support team.</p>
+            <p>Each product page includes a size guide to help you pick the perfect fit for your pet. If you need
+              further assistance, feel free to contact our support team.</p>
           </div>
         </div>
       </div>
-     </section>
+    </section>
 
     <!-- Everyday low Price section -->
 
@@ -357,7 +370,7 @@
       <div class="everyday-low-Price-inner w-[95%] md:w-4/5 mx-auto md:flex md:gap-4">
 
         <div
-          class="everyday-low-Price-left bg-green-500 mb-6 md:mb-0 rounded-lg pt-9 pb-[450px] md:pb-[200px] pl-6 bg-[url(assets/cute-dog-mid.png)] bg-right-bottom md:bg-right bg-no-repeat md:grow md:bg-contain md:items-center md:content-center relative">
+          class="everyday-low-Price-left mb-6 md:mb-0 rounded-lg pt-9 pb-[450px] md:pb-[200px] pl-6 bg-right-bottom md:bg-right bg-no-repeat md:grow md:bg-contain md:items-center md:content-center relative">
 
           <div class="md:absolute">
             <h4 class="hidden md:block">Under Price</h4>
@@ -369,7 +382,7 @@
         </div>
 
         <div
-          class="everyday-low-Price-right bg-red-600 mb-6 md:mb-0 rounded-lg pt-9 pb-[450px] md:pb-[200px] pl-6 bg-[url(assets/cute-pet-mid.png)] md:bg-[url(assets/cute-pet-small.png)] bg-right-bottom bg-no-repeat md:pr-44 md:bg-contain">
+          class="everyday-low-Price-right mb-6 md:mb-0 rounded-lg pt-9 pb-[500px] md:pb-[160px] pl-6 bg-right-bottom bg-no-repeat md:pr-44 md:bg-contain">
           <h3 class="text-3xl font-head">T-Shirt for Dogs</h3>
           <h1 class="text-5xl font-head text-[#FFDC26] mt-3">$7.99</h1>
         </div>
@@ -381,7 +394,8 @@
 
     <!-- Get Paw some News! Section -->
     <section class="get-Pawsome-news-main relative top-[200px]">
-      <div class="get-Pawsome-news-inner w-[95%] md:w-4/5 mx-auto bg-[#FFF9F4] rounded-lg text-center py-8 md:px-20 md:flex md:text-left md:justify-between md:items-center">
+      <div
+        class="get-Pawsome-news-inner w-[95%] md:w-4/5 mx-auto bg-[#FFF9F4] rounded-lg text-center py-8 md:px-20 md:flex md:text-left md:justify-between md:items-center">
         <div class="Pawsome-news-left-image inline-block">
           <img src="assets/cute-pet-mid.png" alt="">
         </div>
