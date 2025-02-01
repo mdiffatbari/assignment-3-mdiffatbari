@@ -28,6 +28,8 @@
           --font-des: Sora, serif;
           --color-hb: rgba(255, 249, 244, 1);
           --color-primary01: #FFDC26;
+          --color-des: rgba(17, 17, 17, 0.7);
+          --color-border01: rgba(17, 17, 17, 0.1);
         }
       </style>
   <link rel="stylesheet" href="style.css">
@@ -52,7 +54,7 @@
             <i class="fa-regular fa-bell"></i>
             <i class="fa-solid fa-magnifying-glass ml-2"></i>
             <button class="text-black ml-2 border border-[#FFDC26] w-24 h-9 rounded-lg hover:bg-black hover:text-white hover:border-none">Login</button>
-            <button class="bg-[#FFDC26] w-28 h-9 rounded-lg ml-1 hover:bg-black hover:text-white">Register</button>
+            <button class="bg-[#FFDC26] w-28 h-9 rounded-lg hover:bg-black hover:text-white">Register</button>
           </div>
           <i class="fa-solid fa-bars text-3xl lg:hidden"></i>
         </div>
@@ -113,9 +115,196 @@
           <h4 class="font-head text-xl mb-5">Rabit</h4>
           <p class="text-base">2 items</p>
         </div>
-
       </div>
      </section>
+
+     <!-- Trending Pet Products Section -->
+      <section class="Trending-Pet-Products-section md:bg-[#FFF9F4] md:py-24">
+        <div class="Trending-Pet-Products-section-header w-[95%] md:w-4/5 mx-auto">
+          <h1 class="font-head text-4xl mb-12">Trending Pet Products</h1>
+        </div>
+        <div class="Trending-Pet-Products-section-inner w-[95%] md:w-4/5 mx-auto md:flex md:flex-1 md:gap-4">
+          <div class="Trending-Pet-Products-left bg-[#F9DF8A] rounded-lg pt-11 pb-80 md:pb-32 md:pt-6 px-8 md:px-8 bg-[url(assets/cute-pet-small.png)] bg-right-bottom bg-no-repeat bg-contain md:bg-[132px_40px]">
+            <h1 class="font-head text-5xl mb-5 md:text-3xl">T- Shirt For Dogs</h1>
+            <p class="mb-4 text-des text-xl md:text-base">Discover a world of treats, toys, and<br>essentials handpicked for </p>
+            <button class="bg-white w-36 h-12 rounded-lg hover:bg-black hover:text-white">Shop Now</button>
+          </div>
+          <div class="Trending-Pet-Products-right mt-6 lg:mt-0 lg:grow-2">
+            <div class="Trending-Pet-Products-right-iteams grid grid-cols-2 gap-4 md:grid-cols-2 lg:grid-cols-3">
+              
+              <!-- trending pet boxes -->
+              
+              <div class="Trending-Pet-iteams-box flex items-center bg-white border-2 border-border01 rounded-lg p-3 md:py-2 md:px-1">
+                <div class="Trending-iteams-left-img">
+                  <img src="assets/dog-cartoon.png" alt="" class="bg-[#FFF9F4] p-8 md:p-3 mr-3 md:ml-2 rounded-lg">
+                </div>
+                <div class="Trending-iteams-right-content">
+                  <div class="trending-rating flex items-center">
+                    <div class="rating-img">
+                      <i class="fa-solid fa-star mr-1 text-primary01 text-lg"></i>
+                    </div>
+                    <div class="rating-value">
+                      <h3>4.5</h3>
+                    </div>
+                  </div>
+                    <h3 class="font-medium text-lg">Pet Bed</h3>
+                    <p class="font-medium">$39.99</p>
+                </div>
+              </div>
+
+              <div class="Trending-Pet-iteams-box flex items-center bg-white border-2 border-border01 rounded-lg p-3 md:py-2 md:px-1">
+                <div class="Trending-iteams-left-img">
+                  <img src="assets/fish-cartoon.png" alt="" class="bg-[#FFF9F4] p-8 md:p-3 mr-3 md:ml-2 rounded-lg">
+                </div>
+                <div class="Trending-iteams-right-content">
+                  <div class="trending-rating flex items-center">
+                    <div class="rating-img">
+                      <i class="fa-solid fa-star mr-1 text-primary01 text-lg"></i>
+                    </div>
+                    <div class="rating-value">
+                      <h3>4.5</h3>
+                    </div>
+                  </div>
+                    <h3 class="font-medium text-lg">Pet Bed</h3>
+                    <p class="font-medium">$39.99</p>
+                </div>
+              </div>
+
+              <div class="Trending-Pet-iteams-box flex items-center bg-white border-2 border-border01 rounded-lg p-3 md:py-2 md:px-1">
+                <div class="Trending-iteams-left-img">
+                  <img src="assets/bird-cartoon.png" alt="" class="bg-[#FFF9F4] p-8 md:p-3 mr-3 md:ml-2 rounded-lg">
+                </div>
+                <div class="Trending-iteams-right-content">
+                  <div class="trending-rating flex items-center">
+                    <div class="rating-img">
+                      <i class="fa-solid fa-star mr-1 text-primary01 text-lg"></i>
+                    </div>
+                    <div class="rating-value">
+                      <h3>4.5</h3>
+                    </div>
+                  </div>
+                    <h3 class="font-medium text-lg">Pet Bed</h3>
+                    <p class="font-medium">$39.99</p>
+                </div>
+              </div>
+
+              <div class="Trending-Pet-iteams-box flex items-center bg-white border-2 border-border01 rounded-lg p-3 md:py-2 md:px-1">
+                <div class="Trending-iteams-left-img">
+                  <img src="assets/rabbit-cartoon.png" alt="" class="bg-[#FFF9F4] p-8 md:p-3 mr-3 md:ml-2 rounded-lg">
+                </div>
+                <div class="Trending-iteams-right-content">
+                  <div class="trending-rating flex items-center">
+                    <div class="rating-img">
+                      <i class="fa-solid fa-star mr-1 text-primary01 text-lg"></i>
+                    </div>
+                    <div class="rating-value">
+                      <h3>4.5</h3>
+                    </div>
+                  </div>
+                    <h3 class="font-medium text-lg">Pet Bed</h3>
+                    <p class="font-medium">$39.99</p>
+                </div>
+              </div>
+
+              <div class="Trending-Pet-iteams-box flex items-center bg-white border-2 border-border01 rounded-lg p-3 md:py-2 md:px-1">
+                <div class="Trending-iteams-left-img">
+                  <img src="assets/bird-cartoon.png" alt="" class="bg-[#FFF9F4] p-8 md:p-3 mr-3 md:ml-2 rounded-lg">
+                </div>
+                <div class="Trending-iteams-right-content">
+                  <div class="trending-rating flex items-center">
+                    <div class="rating-img">
+                      <i class="fa-solid fa-star mr-1 text-primary01 text-lg"></i>
+                    </div>
+                    <div class="rating-value">
+                      <h3>4.5</h3>
+                    </div>
+                  </div>
+                    <h3 class="font-medium text-lg">Pet Bed</h3>
+                    <p class="font-medium">$39.99</p>
+                </div>
+              </div>
+
+              <div class="Trending-Pet-iteams-box flex items-center bg-white border-2 border-border01 rounded-lg p-3 md:py-2 md:px-1">
+                <div class="Trending-iteams-left-img">
+                  <img src="assets/pet-couch.png" alt="" class="bg-[#FFF9F4] p-8 md:p-3 mr-3 md:ml-2 rounded-lg">
+                </div>
+                <div class="Trending-iteams-right-content">
+                  <div class="trending-rating flex items-center">
+                    <div class="rating-img">
+                      <i class="fa-solid fa-star mr-1 text-primary01 text-lg"></i>
+                    </div>
+                    <div class="rating-value">
+                      <h3>4.5</h3>
+                    </div>
+                  </div>
+                    <h3 class="font-medium text-lg">Pet Bed</h3>
+                    <p class="font-medium">$39.99</p>
+                </div>
+              </div>
+
+              <div class="Trending-Pet-iteams-box flex items-center bg-white border-2 border-border01 rounded-lg p-3 md:py-2 md:px-1">
+                <div class="Trending-iteams-left-img">
+                  <img src="assets/fish-cartoon.png" alt="" class="bg-[#FFF9F4] p-8 md:p-3 mr-3 md:ml-2 rounded-lg">
+                </div>
+                <div class="Trending-iteams-right-content">
+                  <div class="trending-rating flex items-center">
+                    <div class="rating-img">
+                      <i class="fa-solid fa-star mr-1 text-primary01 text-lg"></i>
+                    </div>
+                    <div class="rating-value">
+                      <h3>4.5</h3>
+                    </div>
+                  </div>
+                    <h3 class="font-medium text-lg">Pet Bed</h3>
+                    <p class="font-medium">$39.99</p>
+                </div>
+              </div>
+
+              <div class="Trending-Pet-iteams-box flex items-center bg-white border-2 border-border01 rounded-lg p-3 md:py-2 md:px-1">
+                <div class="Trending-iteams-left-img">
+                  <img src="assets/pet-couch.png" alt="" class="bg-[#FFF9F4] p-8 md:p-3 mr-3 md:ml-2 rounded-lg">
+                </div>
+                <div class="Trending-iteams-right-content">
+                  <div class="trending-rating flex items-center">
+                    <div class="rating-img">
+                      <i class="fa-solid fa-star mr-1 text-primary01 text-lg"></i>
+                    </div>
+                    <div class="rating-value">
+                      <h3>4.5</h3>
+                    </div>
+                  </div>
+                    <h3 class="font-medium text-lg">Pet Bed</h3>
+                    <p class="font-medium">$39.99</p>
+                </div>
+              </div>
+
+              <div class="Trending-Pet-iteams-box flex items-center bg-white border-2 border-border01 rounded-lg p-3 md:py-2 md:px-1">
+                <div class="Trending-iteams-left-img">
+                  <img src="assets/rabbit-cartoon.png" alt="" class="bg-[#FFF9F4] p-8 md:p-3 mr-3 md:ml-2 rounded-lg">
+                </div>
+                <div class="Trending-iteams-right-content">
+                  <div class="trending-rating flex items-center">
+                    <div class="rating-img">
+                      <i class="fa-solid fa-star mr-1 text-primary01 text-lg"></i>
+                    </div>
+                    <div class="rating-value">
+                      <h3>4.5</h3>
+                    </div>
+                  </div>
+                    <h3 class="font-medium text-lg">Pet Bed</h3>
+                    <p class="font-medium">$39.99</p>
+                </div>
+              </div>
+
+              
+
+              
+
+            </div>
+          </div>
+        </div>
+      </section>
+
   </main>
   <footer></footer>
 </body>
